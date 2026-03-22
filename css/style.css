@@ -1,0 +1,343 @@
+/* GENERAL */
+body {
+  font-family: "Noto Serif", serif;
+  color: #444;
+  background: radial-gradient(white, rgb(112, 240, 233) );
+}
+
+.about-section {
+    background: linear-gradient(pink, rgb(107, 215, 241));
+}
+
+/* Section layout */
+.why-choose-section {
+  width: 100%;
+}
+
+/* LEFT SIDE GREEN AREA */
+.why-text-section {
+  background: rgba(81, 238, 230, 0.85);
+  color: black;
+  height: 800px;
+  display: flex;
+  align-items: center;
+}
+
+/* TEXT BOX */
+.content-box {
+  padding: 80px;
+}
+
+.content-box h2 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.content-box p {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+/* RIGHT IMAGE SIDE */
+.why-image-section img {
+  width: 800px;
+  height: 800px;
+  object-fit: cover;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+
+  .content-box {
+    padding: 40px;
+  }
+
+  .content-box h2 {
+    font-size: 28px;
+  }
+
+}
+
+/* HERO HOME */
+.hero-section {
+  background: linear-gradient(pink, rgb(107, 215, 241));
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* SERVICE CARDS */
+.service-card {
+  border-radius: 10px;
+  transition: 0.3s;
+  background: radial-gradient( #dfe9ee, #59cfdf);
+}
+
+.service-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.insured-badge {
+  display: inline-block;
+  background-color: #198754; /* professional green */
+  color: white;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+
+.quotes {
+  color: black;
+  font-weight: bold;
+}
+
+/* Footer Links */
+.footer-links a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 15px;
+  display: block;
+  margin-bottom: 6px;
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: #fff;
+  padding-left: 5px;
+}
+
+/* Social Icons */
+.social-icons a {
+  color: white;
+  font-size: 22px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #0d6efd;
+  transform: scale(1.1);
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* CONTACT PAGE INFO BOX */
+
+.contact-info-box {
+  background: #fff;
+  border-radius: 12px;
+}
+
+.contact-info-box h3 {
+  color: #c2185b;
+}
+
+.contact-info-box p {
+  font-size: 1rem;
+  margin-bottom: 12px;
+}
+
+/* Gallery Styling */
+
+.gallery-item {
+    width: 100%;
+    height: 250px; /* Adjust height as needed */
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.gallery-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer ;
+  transition: transform 0.3s ease;
+}
+
+.gallery-img:hover {
+  transform: scale(1.05);
+}
+
+#gallery {
+  background: #f8f9fa;
+}
+
+.social-icons a {
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #f39c12; /* gold color */
+  transform: scale(1.2);
+}
+
+
+/* =========================
+   Threading Section Styles
+========================= */
+
+.threading-section {
+  margin-top: 60px;
+  
+}
+
+/* Header */
+
+.threading-header {
+  background: linear-gradient(to right, #fde2e2, #ffffff);
+  padding: 30px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.threading-header h2 {
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+
+/* Images */
+
+.threading-img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Content */
+
+.threading-content h4 {
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.threading-content p {
+  color: #555;
+  line-height: 1.7;
+}
+
+
+/* Benefits List */
+
+.benefits-list li {
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+
+/* Button */
+
+.btn-book {
+  background-color: #2f3542;
+  color: #ffffff;
+  padding: 10px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  transition: 0.3s ease;
+  margin-bottom: 15px;
+}
+
+.btn-book:hover {
+  background-color: #1e272e;
+  color: #ffffff;
+}
+
+/* Center items vertically */
+.navbar-nav .nav-link {
+  font-weight: bolder;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+/* Hover for normal nav items */
+.navbar-nav .nav-link:hover {
+  border-radius: 6px;
+  color: white;
+}
+
+
+/* Price Section */
+
+.price-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.price-card h4 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+
+/* Price List */
+
+.price-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #eaeaea;
+  font-size: 15px;
+}
+
+.price-list li:last-child {
+  border-bottom: none;
+}
+
+/* Service Rows */
+.service-row img {
+  max-height: 350px;
+  object-fit: cover;
+}
+
+/* Service Cards */
+
+------------------
+.service-img {
+    height: 260px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* Service Menu */
+.service-menu .list-group-item {
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 12px 18px;
+    font-weight: 500;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease;
+}
+
+.service-menu .list-group-item-action:hover {
+    background-color: pink;
+    color: #000;
+    cursor: pointer;
+}
+
+.service-menu .list-group-item.active {
+    background-color: #ddd;
+    border-color: #2f3542;
+    color: black
+}
+
+.service-menu a {
+  text-decoration: none;
+  color: #000;
+}
