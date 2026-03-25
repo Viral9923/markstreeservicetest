@@ -341,3 +341,21 @@ body {
   text-decoration: none;
   color: #000;
 }
+
+.hero-logo {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .hero-logo {
+    max-width: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-logo {
+    max-width: 140px;
+  }
+}
