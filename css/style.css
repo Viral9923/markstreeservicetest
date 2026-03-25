@@ -54,7 +54,7 @@ body {
 
 @media (max-width: 768px) {
   .hero-logo {
-    max-height: 140px;
+    max-height: 240px;
   }
 
   .display-4 {
