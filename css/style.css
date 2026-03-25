@@ -46,6 +46,22 @@ body {
   object-fit: cover;
 }
 
+.why-image {
+  max-height: 800px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .why-image {
+    max-height: 500px;
+  }
+
+  .content-box {
+    text-align: center;
+  }
+}
 
 .hero-logo {
   max-height: 280px;
