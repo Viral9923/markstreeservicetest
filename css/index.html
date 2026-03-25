@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Marks Tree Service LLC | Home</title>
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light.bg-gradient shadow-sm nav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/logo2.png" height="100" width="100" alt="Marks Tree Service">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link " href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+ <!-- Hero -->
+<header class="hero-section text-center text-white">
+  <div class="container py-5">
+
+    <img src="images/logo2.png" alt="Tree Service Logo" class="img-fluid hero-logo mb-3">
+    <h1 class="display-4 text-dark">Preserving Nature's Giants.</h1>
+    <p class="lead text-dark">
+      Protecting Your Home, One Branch at a Time.
+    </p>
+    <h3 class="quotes">
+      Serving Berkshire County. Free Estimates and Quotes. Call Us Today!
+    </h3>
+  </div>
+</header>
+
+  <!-- Services Preview -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Our Popular Services</h2>
+      <div class="row g-4">
+        <div class="col-md-4 text-center">
+          <div class="service-card p-4 shadow-sm">
+            <h4>Tree Removal<br>Hazard and Emergency Response</h4>
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="service-card p-4 shadow-sm">
+            <h4>Stump Grinding
+              <br>
+            </h4>
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="service-card p-4 shadow-sm">
+            <h4>Pruning & Trimming</h4>
+          </div>
+        </div>
+      </div>
+       <div class="mt-3">
+        <img src="images/ins2.png" alt="Fully Insured and Licensed" width="100%" height="400">
+      </div>
+    </div>
+  </section>
+
+  <!-- Image Gallery -->
+<section class="py-5 bg-light" id="gallery">
+  <div class="container">
+    <h2 class="text-center mb-4">Our Work and Projects</h2>
+    <div class="row g-4">
+      <!-- Image 1 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="gallery-item">
+          <img src="images/mtsw1.jpg"
+               class="img-fluid rounded shadow-sm gallery-img"
+               alt="Salon Work 1"
+               data-bs-toggle="modal"
+               data-bs-target="#galleryModal"
+               onclick="showImage(this.src)">
+        </div>
+      </div>
+
+      <!-- Image 2 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="gallery-item">
+          <img src="images/mtsw2.jpg"
+               class="img-fluid rounded shadow-sm gallery-img"
+               alt="Salon Work 2"
+               data-bs-toggle="modal"
+               data-bs-target="#galleryModal"
+               onclick="showImage(this.src)">
+        </div>
+      </div>
+
+      <!-- Image 3 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="gallery-item">
+          <img src="images/mark-bucket.png"
+               class="img-fluid rounded shadow-sm gallery-img"
+               alt="Salon Work 3"
+               data-bs-toggle="modal"
+               data-bs-target="#galleryModal"
+               onclick="showImage(this.src)">
+        </div>
+      </div>
+
+      <!-- Image 4 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="gallery-item">
+          <img src="images/mtsw3.jpg"
+               class="img-fluid rounded shadow-sm gallery-img"
+               alt="Salon Work 4"
+               data-bs-toggle="modal"
+               data-bs-target="#galleryModal"
+               onclick="showImage(this.src)">
+        </div>
+      </div>
+
+      <!-- Image 5 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="gallery-item">
+          <img src="images/mtsw4.jpg"
+               class="img-fluid rounded shadow-sm gallery-img"
+               alt="Salon Work 5"
+               data-bs-toggle="modal"
+               data-bs-target="#galleryModal"
+               onclick="showImage(this.src)">
+        </div>
+      </div>
+
+      <!-- Image 6 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="gallery-item">
+          <img src="images/mtsw5.jpg"
+               class="img-fluid rounded shadow-sm gallery-img"
+               alt="Salon Work 6"
+               data-bs-toggle="modal"
+               data-bs-target="#galleryModal"
+               onclick="showImage(this.src)">
+        </div>
+      </div>
+
+      <!-- Image 7 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="gallery-item">
+          <img src="images/mtsw6.jpg"
+               class="img-fluid rounded shadow-sm gallery-img"
+               alt="Salon Work 7"
+               data-bs-toggle="modal"
+               data-bs-target="#galleryModal"
+               onclick="showImage(this.src)">
+        </div>
+      </div>
+
+      <!-- Image 8 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="gallery-item">
+          <img src="images/mtsw7.jpg"
+               class="img-fluid rounded shadow-sm gallery-img"
+               alt="Salon Work 8"
+               data-bs-toggle="modal"
+               data-bs-target="#galleryModal"
+               onclick="showImage(this.src)">
+        </div>
+      </div>
+
+      <!-- Image 9 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="gallery-item">
+          <img src="images/mtsw8.jpg"
+               class="img-fluid rounded shadow-sm gallery-img"
+               alt="Salon Work 9"
+               data-bs-toggle="modal"
+               data-bs-target="#galleryModal"
+               onclick="showImage(this.src)">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<main class="container py-5">
+  <h2 class="text-center mb-4">Contact Us</h2>
+  <div class="row g-4 align-items-center">
+    <!-- GOOGLE MAP -->
+    <div class="col-md-6">
+      <div class="ratio ratio-4x3">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2940.706860936891!2d-73.230690487995!3d42.
+          51903712492249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e74dbf750c5a85%3A0x15faddb6988855cc!2
+          sMarks%20tree%20service!5e0!3m2!1sen!2sus!4v1774189230434!5m2!1sen!2sus" 
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+    <!-- BUSINESS INFO -->
+    <div class="col-md-6">
+      <div class="contact-info-box p-4 shadow-sm">
+        <h3 class="mb-3">Marks Tree Service</h3>
+        <p>
+          <strong>📍 Address:</strong><br>
+          45 N Main St, Lanesborough, MA 01237<br>
+        </p>
+        <p>
+          <strong>📞 Phone:</strong><br>
+          +1 (413) 273 - 0836 
+        </p>
+        <p>
+          <strong>📧 Email:</strong><br>
+          Markstreeservice23@gmail.com
+        </p>
+        <p>
+          <strong>⏰ Business Hours:</strong><br>
+          Mon - Sun : 9 AM to 5 PM <br>
+          On - Call for Emergency <br>
+          Call for scheduled job/project <br>
+          By Appointment <br><br>
+        </p>
+        <hr>
+      </div>
+    </div>
+  </div>
+</main>
+
+  <!-- Footer -->
+<footer class="footer bg-dark text-white py-4">
+  <div class="container">
+    <div class="row align-items-start text-center text-md-start">
+      <!-- Logo -->
+      <div class="col-md-3 mb-3 mb-md-0">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo3.png" height="125" width="125" alt="Marks Tree Service">
+        </a>
+      </div>
+      <!-- Quick Links -->
+      <div class="col-md-3 mb-3 mb-md-0">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <!-- Hours & Location -->
+      <div class="col-md-3 mb-3 mb-md-0">
+        <h5>Hours & Location</h5>
+        <p>
+          <strong>⏰ Business Hours:</strong><br>
+          Mon - Sun : 9 AM to 5 PM <br>
+          On - Call for Emergency <br>
+          Call for scheduled job/project <br>
+          By Appointment <br><br>
+        </p>
+      </div>
+      <!-- Social Media -->
+      <div class="col-md-3">
+        <h5>Follow Us</h5>
+        <div class="social-icons mt-2">
+          <a href="https://maps.app.goo.gl/eSo4BpNoBx1MTqPB8" target="_blank" class="me-3">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="https://www.facebook.com/p/Marks-tree-service-100062338940079/" target="_blank" class="me-3">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" target="_blank" class="me-3">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" target="_blank" class="me-3">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a href="#" target="_blank">
+            <i class="fab fa-yelp"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <small>Copyright &copy; 2026 Marks Tree Service LLC , All rights reserved. </small>
+      <br>
+      <small>Designed and created by Viral Shah</small>
+    </div>
+  </div>
+</footer>
+
+  <!-- Gallery Modal -->
+<div class="modal fade" id="galleryModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-transparent border-0">
+      <div class="modal-body text-center p-0">
+        <img id="modalImage" class="img-fluid rounded">
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
